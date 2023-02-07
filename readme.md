@@ -4,7 +4,7 @@
  * @Author: Zhiqing Zhong
  * @Date: 2023-02-07 13:23:53
  * @LastEditors: Zhiqing Zhong
- * @LastEditTime: 2023-02-07 14:57:12
+ * @LastEditTime: 2023-02-07 15:03:21
 -->
 # 说明
 
@@ -27,8 +27,7 @@
 ![20230207145330](http://cdn.ziuch.cn/vs/20230207145330.png)
 
 然后在[web端](https://www.notion.so/)打开该页面，复制url中的`database_id`，如下图所示
-![20230207145638](http://cdn.ziuch.cn/vs/20230207145638.png)
-
+![20230207150311](http://cdn.ziuch.cn/vs/20230207150311.png)
 
 # 使用
 ```shell
