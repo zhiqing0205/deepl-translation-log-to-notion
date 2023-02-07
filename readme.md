@@ -4,7 +4,7 @@
  * @Author: Zhiqing Zhong
  * @Date: 2023-02-07 13:23:53
  * @LastEditors: Zhiqing Zhong
- * @LastEditTime: 2023-02-07 15:11:51
+ * @LastEditTime: 2023-02-07 15:17:46
 -->
 
 [脚本地址](https://greasyfork.org/zh-CN/scripts/459564-deepl%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BD%95%E5%90%8C%E6%AD%A5%E8%87%B3notion)
@@ -34,6 +34,10 @@
 
 然后在[web端](https://www.notion.so/)打开该页面，复制url中的`database_id`，如下图所示
 ![20230207150311](http://cdn.ziuch.cn/vs/20230207150311.png)
+
+## token关联database
+在创建的页面中，点击三个点，选择`Add connections`，然后选择` DeepL translation log`，点击`添加`，如下图所示
+![20230207151706](http://cdn.ziuch.cn/vs/20230207151706.png)
 
 # 使用
 ```shell
