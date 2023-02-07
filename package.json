@@ -1,0 +1,17 @@
+{
+    "name": "deepltranslatorlog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@notionhq/client": "^2.2.3",
+        "dotenv": "^16.0.3",
+        "fastify": "^4.12.0"
+    }
+}
