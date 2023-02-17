@@ -4,7 +4,7 @@
  * @Author: Zhiqing Zhong
  * @Date: 2023-02-07 13:23:53
  * @LastEditors: Zhiqing Zhong
- * @LastEditTime: 2023-02-07 23:58:56
+ * @LastEditTime: 2023-02-18 02:20:01
 -->
 
 [脚本地址](https://greasyfork.org/zh-CN/scripts/459564-deepl%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BD%95%E5%90%8C%E6%AD%A5%E8%87%B3notion)
@@ -12,12 +12,14 @@
 
 # 说明
 
-这是一个基于`fastify`的`nodejs`服务器，用于将脚本发送过来的数据发送到`notion`的数据库中。
+~~这是一个基于`fastify`的`nodejs`服务器，用于将脚本发送过来的数据发送到`notion`的数据库中。
 需要配合[脚本](https://greasyfork.org/zh-CN/scripts/459564-deepl%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BD%95%E5%90%8C%E6%AD%A5%E8%87%B3notion)使用。
-需要有`nodejs`环境。
+需要有`nodejs`环境。~~
+这是脚本的配套使用教程，原项目功能已经集成到脚本中，不需要再单独使用。
 
 # 配置
-在`.env`中配置`notion`的`token`和`database_id`。
+~~在`.env`中配置`notion`的`token`和`database_id`。~~
+点击脚本配置，粘贴获取到的`token`和`database_id`到相应的输入框中
 ## 获取notion token
 我们需要设置一个集成，通过Notion API连接你的数据库，然后生成一个访问令牌来访问Notion的API。
 
@@ -39,7 +41,7 @@
 在创建的页面中，点击三个点，选择`Add connections`，然后选择`DeepL translation log`，点击`添加`，如下图所示
 ![20230207151939](https://ziuch.oss-cn-beijing.aliyuncs.com/blog/202302071526779.png)
 
-# 使用
+<!-- # 使用
 ## 安装依赖
 ```shell
 npm install
@@ -47,4 +49,4 @@ npm install
 ## 启动
 ```shell
 node server
-```
+``` -->
